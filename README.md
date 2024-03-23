@@ -1,5 +1,5 @@
 # Ex.No: 05  IMPLEMENTATION OF TIME SERIES ANALYSIS AND DECOMPOSITION
-### Date: 
+### Date: 23/03/2024
 
 
 ### AIM:
@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 from statsmodels.tsa.seasonal import seasonal_decompose
 
 # Load dataset (replace with your data)
-data = pd.read_csv('/content/AirPassengers.csv')
+data = pd.read_csv('/content/Temperature.csv')
 
 # Convert 'date' column to datetime format and set as index
 data['Month'] = pd.to_datetime(data['Month'])
@@ -54,7 +54,7 @@ plt.show()
 
 
 ### OUTPUT:
-![image](https://github.com/manojvenaram/TSA_EXP5/assets/94165064/d2952d7a-1ff9-42c5-8b54-279190c1f9b2)
+![image](https://github.com/manojvenaram/TSA_EXP5/assets/94165064/cbf97321-ad8e-4238-8ead-31fea131cde3)
 
 
 
